@@ -207,30 +207,10 @@ Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 `
 }
 exports.iklanBot = (prefix) => {
-return`         𝗜𝗞𝗟𝗔𝗡 𝗕𝗢𝗧𝗭
+return`         v𝗕𝗢𝗧
       
-KEUNTUNGAN BOTZ
-▢ BISA JAGA GRUP DARI LINK
-▢ BISA BIKIN STIKER TEKS,VIDIO DAN GAMBAR
-▢ BISA NYAPA TAMU YG MASUK
-▢ BISA PLAY AUDIO DAN VIDIO
-▢ BISA JADI ADMIN BERBER
-
-KELEBIHAN BOTZ
-▢ ON 24JAM KALAU GK DELAY
-▢ SELALU UPDATE FITUR 
-▢ BOT NO PASARAN
-
-LIST HARGA SEWA BOTZ
-▢ PERHARI 2K
-▢ PERMINGGU 5K
-▢ PERBULAN 15K
-▢ PERMANEN 40K
-MINAT HIBUNGI OWNER
-wa.me/6282287486762
-
-YG MAU TOP UP GAME MARI JOIN
-https://chat.whatsapp.com/KUb8JJwppqL3zLS7p9xXx7`
+wa.me/6285887879565
+`
 }
 exports.infoMenu = (prefix) => {
 return `
@@ -351,7 +331,7 @@ return`
 
 
 NOTE:
-_ANAK DI BAWAH UMUR 18 TAHUN JANGAN GUNAKAN FITUR INI NANTI LU SANGE🗿_
+_18+
 `}
 exports.soundMenu = (prefix) => {
 return`
@@ -429,7 +409,7 @@ return`
 
 `}
 exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount, sender, baterai) => {
-    return `━━━━━『DHA BOTZ』━━━━━
+    return `━━━━━『V BOT』━━━━━
 
 𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 𝗕𝗢𝗧
 ❏ NAMA : *${pushname}*
@@ -438,9 +418,9 @@ exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount,
 ❏ LIMIT : *${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-❏ NAMA : *DHA BOTZ*
+❏ NAMA : *V BOT*
 ❏ API : @6282288265627
-❏ OWNER : *YUDHA PERDANA*
+❏ OWNER : *KEVIN TEMBERANO*
 ❏ API : *@6282W87486762*
 ❏ TOTAL HIT : *${cmhit.length}x HIT*
 ❏ AKTIF : *${runtime(process.uptime())}*
@@ -826,4 +806,4 @@ exports.allMenu = (prefix, cmhit, runtime, pushname, isOwner, isPremium, gcount,
 *▢ ${prefix}memeindo*
 *▢ ${prefix}darkjoke*
 
-©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 𝒃𝒚 𝒚𝒖𝒅𝒉𝒂 𝒑𝒆𝒓𝒅𝒂𝒏𝒂`}
+©vintero`}
