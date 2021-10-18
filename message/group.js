@@ -38,11 +38,11 @@ module.exports = welcome = async (dha, anu) => {
                 let v = dha.contacts[num] || { notify: num.replace(/@.+/, '') }
                 anu_user = v.vname || v.notify || num.split('@')[0]
                 time_wel = moment.tz('Asia/Jakarta').format("HH:mm")
-                teks = `Halo Pendatang baru\n${anu_user} \nINTRO DULULAH BIAR KENAL\nNama : \nUmur :\nGender : \nAsal :\n\nSemoga Betah dan jangan lupa isi\nAnd Following Rules Group`
+                teks = `Halo Pendatang baru\n${anu_user} \nWelcome\n \n \n \n \n\n \nvBot`
 	            buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
                 buttons = [{buttonId: `#infogrup`,buttonText:{displayText: 'SELAMAT DATANG'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
-                buttonsMessage = { contentText: `${teks}`, footerText: 'JANGAN BUAT ONAR BRO', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
+                buttonsMessage = { contentText: `${teks}`, footerText: 'vBot', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
                 prep = await dha.prepareMessageFromContent(mdata.id,{buttonsMessage},{})
                 dha.relayWAMessage(prep)
 }
