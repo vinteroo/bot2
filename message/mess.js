@@ -1,6 +1,6 @@
 module.exports.mess = {
 	        wait: 'PROSES...',
-			success: 'NI HASILNYA KAK',
+			success: 'HASIL:',
 			wrongFormat: 'Format salah, coba liat lagi di menu',
 			error: {
 				api: 'APINYA HABIS BRO ISI ULANG DULU',
@@ -8,10 +8,10 @@ module.exports.mess = {
 				Iv: 'JANGAN NGASIH LINK GAJE TOD'
 			},
 			only: {
-				group: 'KHUSUS GRUP BRO',
-				admin: 'KHUSUS ADMIN GRUP BRO',
-				premium: 'LU BUKAN MEMBER PREMIUM,BELI DULU SANA',
-				owner: 'KHUSUS OWNER BRO',
-				Badmin: 'BOT HARUS JADI ADMIN BRO',
+				group: 'GROUP ONLY',
+				admin: 'ADMIN ONLY',
+				premium: 'PREMIUM ONLY',
+				owner: 'OWNER ONLY',
+				Badmin: 'BOT IS NOT ADMIN',
 			}
 		}
